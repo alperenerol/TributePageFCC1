@@ -1,0 +1,76 @@
+$color1: #fff;
+$color2: #ebebeb;
+$color3: #000;
+$font-stack: Arial, Helvetica, sans-serif;
+
+body{ //webpage gibi düşünülebilir
+    background-color: $color1;  
+}
+#main{ // #id  | .class
+    background-color: $color2;
+    font-family: $font-stack;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+#title{ //border-element,inside padding; webpage-border,outside margin    
+    text-align:center;
+    color:$color3;  
+    margin: 3px;
+    padding-top: 10px;
+    h1{
+        font-size: 44px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    line-height: 1;
+}
+#img-div{
+    background-color: $color1;
+    margin: 5px 15px;  
+    padding: 3px 5px; 
+    padding-top: 20px;
+}
+img{    
+    display: block; 
+    margin: auto auto;
+    width: 80%;
+    max-width: 50%;
+    min-width: 400px;    
+}
+#img-caption{
+    text-align: center;
+    margin: 15px 15px;
+    font-style: italic;
+}
+#tribute-title{
+    margin: 3px;
+    padding: 5px 10px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+#timeline{
+    margin: 3px;
+    padding: 5px 25%;
+    line-height: 1.75rem;
+    font-size: 18px;
+}
+.quotes{
+    font-style: italic;
+    margin: 3px;
+    padding: 0 25%;
+    padding-top: 20px;
+    line-height: 1.25rem;
+}
+#wikilink{
+    margin: 3px 3px;
+    padding: 5px 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+#cite{
+    font-size: 15px;
+    padding-left: 20px;
+}

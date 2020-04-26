@@ -1,0 +1,83 @@
+body {
+  background-color: #fff;
+}
+
+#main {
+  background-color: #ebebeb;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px 5px;
+  border-radius: 15px;
+}
+
+#title {
+  text-align: center;
+  color: #000;
+  margin: 3px;
+  padding-top: 10px;
+  line-height: 1;
+}
+#title h1 {
+  font-size: 44px;
+}
+#title h4 {
+  font-size: 18px;
+}
+
+#img-div {
+  background-color: #fff;
+  margin: 5px 15px;
+  padding: 3px 5px;
+  padding-top: 20px;
+}
+
+img {
+  display: block;
+  margin: auto auto;
+  width: 80%;
+  max-width: 50%;
+  min-width: 400px;
+}
+
+#img-caption {
+  text-align: center;
+  margin: 15px 15px;
+  font-style: italic;
+}
+
+#tribute-title {
+  margin: 3px;
+  padding: 5px 10px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#timeline {
+  margin: 3px;
+  padding: 5px 25%;
+  line-height: 1.75rem;
+  font-size: 18px;
+}
+
+.quotes {
+  font-style: italic;
+  margin: 3px;
+  padding: 0 25%;
+  padding-top: 20px;
+  line-height: 1.25rem;
+}
+
+#wikilink {
+  margin: 3px 3px;
+  padding: 5px 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#cite {
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
